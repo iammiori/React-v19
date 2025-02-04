@@ -1,5 +1,5 @@
-import { exercises } from '../mock';
-import { Exercise } from '../types/exercise';
+import { exercises } from '@/mock';
+import { Exercise } from '@/types/exercise';
 
 const cache = new Map();
 

@@ -1,8 +1,8 @@
+import { fetchExercise } from '@/service';
+import { Exercise } from '@/types/exercise';
+import { ExerciseCard } from '@/ui/ExerciseCard';
+import { Skeleton } from '@/ui/Skeleton';
 import { useState, useEffect } from 'react';
-import { fetchExercise } from '../service';
-import { ExerciseCard } from '../ui/ExerciseCard';
-import { Exercise } from '../types/exercise';
-import { Skeleton } from '../ui/Skeleton';
 
 export default function React18Page() {
   const [exercise, setExercise] = useState<Exercise>();

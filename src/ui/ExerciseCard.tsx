@@ -1,4 +1,4 @@
-import { Exercise } from '../types/exercise';
+import { Exercise } from '@/types/exercise';
 
 type Props = {
   exercise: Exercise;

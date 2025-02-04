@@ -1,3 +1,6 @@
+import { fetchExercise } from '@/service';
+import { ExerciseCard } from '@/ui/ExerciseCard';
+import { Skeleton } from '@/ui/Skeleton';
 import {
   startTransition,
   Suspense,
@@ -6,9 +9,6 @@ import {
   useState,
   version,
 } from 'react';
-import { fetchExercise } from '../service';
-import { ExerciseCard } from '../ui/ExerciseCard';
-import { Skeleton } from '../ui/Skeleton';
 
 type Props = {
   id: number;
