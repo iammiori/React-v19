@@ -50,6 +50,9 @@ React 19: useOptimistic을 통한 낙관적 업데이트로 더 부드러운 전
 React 18: 비동기 로직과 상태 관리가 명시적
 React 19: 간결한 코드로 동일한 기능 구현 가능
 
+## 😈 Trouble Shooting
+[React19의 경우, promise에서 key로 관리 안해주면 호출이 안됨](https://github.com/iammiori/React-v19/issues/1)
+
 ## 사용된 기존 React 기능
 
 ### Suspense
